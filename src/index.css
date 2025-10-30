@@ -1,0 +1,551 @@
+@import "tailwindcss";
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 120px;
+}
+
+.nav a {
+  margin: 0 55px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: rgba(76, 64, 247, 1);
+}
+
+.contact-btn {
+  padding: 20px 32px;
+  background-color: rgba(76, 64, 247, 1);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;            
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.business h1{
+    font-size: 56pt;
+}
+
+.business span{
+    color: rgba(255, 104, 0, 1);
+}
+
+.business p{
+    font-size: 18pt;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+/* Servis */
+
+.servis{
+    text-align: center;
+    font-size: 42pt;
+}
+
+.servis span{
+    color: rgba(255, 45, 89, 1);
+    font-size: 25pt;
+}
+
+.First{
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card_1 {
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(76, 64, 247, 1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.card_1 h1 {
+  font-size: 20px;
+  color: #000000;
+  transition: color 0.5s ease;
+}
+
+.card_1 p{
+  font-size: 16px;
+  color: #000000;
+  transition: color 0.5s ease;
+}
+
+.card_1:hover {
+  background: rgba(76, 64, 247, 1);
+  transform: translateY(-5px);
+}
+
+.card_1:hover {
+  background: rgba(76, 64, 247, 1);
+  transform: translateY(-5px);
+}
+
+.card_1:hover .white{
+  color: white;
+}
+.card_2 {
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 45, 89, 0.4);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card_2 h1 {
+  font-size: 20px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_2 p{
+  font-size: 16px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_2:hover {
+  background: rgba(255, 45, 89, 1);
+  transform: translateY(-5px);
+}
+
+.card_2:hover .white{
+  color: white;
+}
+
+.card_3 {
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(74, 219, 97, 1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card_3 h1 {
+  font-size: 20px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_3 p{
+  font-size: 16px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_3:hover {
+  background: rgba(74, 219, 97, 1);
+  transform: translateY(-5px);
+}
+
+.card_3:hover .white{
+  color: white;
+}
+
+.Second{
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card_4 {
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 204, 0, 1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card_4 h1 {
+  font-size: 20px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_4 p{
+  font-size: 16px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_4:hover {
+  background: rgba(255, 204, 0, 1);
+  transform: translateY(-5px);
+}
+
+.card_4:hover .white{
+  color: white;
+}
+
+.card_5 {
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card_5 h1 {
+  font-size: 20px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_5 p{
+  font-size: 16px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_5:hover {
+  background: rgba(0, 123, 255, 1);
+  transform: translateY(-5px);
+}
+
+.card_5:hover .white{
+  color: white;
+}
+
+.card_6 {
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 104, 0, 1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card_6 h1 {
+  font-size: 20px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_6 p{
+  font-size: 16px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.card_6:hover {
+  background: rgba(255, 104, 0, 1);
+  transform: translateY(-5px);
+}
+
+.card_6:hover .white{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Documentation */
+
+
+.container_2{
+  margin-top: 100px;
+  background-size: cover;
+  background-image: url(./assets/Circle.png);
+
+}
+
+.doc {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 42pt;
+}
+
+.doc span{
+    color: rgba(255, 45, 89, 1);
+    font-size: 25pt;
+}
+
+.doc img{
+  width: 75%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Customer */
+
+.container_3{
+  background-color: rgba(249, 249, 253, 0.699);
+  display: flex;
+  margin-left: 40%;
+  gap: 50px;
+}
+
+.provide{
+  width: 355px;
+}
+
+.karta {
+  background-color: rgb(255, 255, 255);
+  width: 270px;
+  height: 300px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.karta h1{
+  padding: 10%;
+  color: rgba(76, 64, 247, 1);
+  font-size: 56pt;
+}
+
+.karta p{
+  font-size: 20pt;
+}
+
+
+
+
+/* Workspace */
+
+
+.work {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 42pt;
+}
+
+.work span{
+    color: rgba(255, 45, 89, 1);
+    font-size: 25pt;
+}
+
+.foto p{
+  position: relative;
+  bottom: 50px;
+  color: #ffffff;
+  font-size: 15pt;
+}
+  
+
+
+/* Great*/
+
+.great{
+  margin-top: 200px;
+    text-align: center;
+    font-size: 42pt;
+}
+
+.great span{
+    color: rgba(255, 45, 89, 1);
+    font-size: 25pt;
+}
+
+.great img{
+    margin-top: 80pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slade */
+
+
+
+.slider-container {
+  position: relative;
+  width: 97,5%;
+  height: 550px;
+  background: rgba(254, 150, 2, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 0 20px;
+  margin-top: 200px;
+}
+
+
+.quote {
+  font-size: 2rem;
+  font-style: italic;
+  max-width: 800px;
+  margin-bottom: 30px;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.author {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+
+.company {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+
+.fade {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgb(255, 255, 255);
+  border: none;
+  color: rgb(85, 85, 85);
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 10px 27px;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  background: rgba(76, 64, 247, 1);
+}
+
+.left {
+  left: 40px;
+}
+
+.right {
+  right: 40px;
+}
+
+
+.dots {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dot.active {
+  background: white;
+  transform: scale(1.2);
+}
+
