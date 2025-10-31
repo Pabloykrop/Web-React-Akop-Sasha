@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react"
+import Quotmarks_Orange from './assets/Quotmarks_Orange.png'
+import Quotmarks_Blue from './assets/Quotmarks_Blue.png'
 
 const Slade = () => {
   const slides = [
@@ -32,7 +34,10 @@ const Slade = () => {
   }, [slides.length])
 
   return (
-    <div className="relative  h-[700px] bg-orange-400 text-white flex flex-col justify-center items-center mt-40 text-center px-6 rounded-xl">
+    <div className="relative  h-[700px] bg-orange-400 text-white flex flex-col justify-center items-center mt-40 text-center px-6 rounded-xl dark:bg-[#020E2D]">
+      
+      <img scr={Quotmarks_Orange} className="block, dark:hidden"/>
+      <img src={Quotmarks_Blue} className="hidden, dark:block"/>
       <button
         className="absolute left-10 top-1/2 -translate-y-1/2 w-17 h-17 bg-white text-gray-700 text-6xl px-4 py-1 rounded-full hover:bg-indigo-600 hover:text-white transition"
         onClick={() => setIndex((i) => (i - 1 + slides.length) % slides.length)}

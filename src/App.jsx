@@ -12,14 +12,16 @@ function App() {
 
 return (
     <>
-      <Head/>
-      <Servis/>
-      <Documentation/>
-      <Customer/>
-      <Workspace/>
-      <Great/>
-      <Slade/>
-      <Question/>
+      <div className='bg-white dark:bg-[#00113B]'>
+        <Head/>
+        <Servis/>
+        <Documentation/>
+        <Customer/>
+        <Workspace/>
+        <Great/>
+        <Slade/>
+        <Question/>
+      </div>
     </>
   )
 }
